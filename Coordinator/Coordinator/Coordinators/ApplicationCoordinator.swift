@@ -7,14 +7,16 @@
 
 import Foundation
 
-/// Application Coordinator
+/// Координатор приложения.
 final class ApplicationCoordinator: BaseCoordinator {
     // MARK: - Public Methods
 
     override func start() {
         toAuth()
     }
+
     // MARK: - Private Methods
+    
     private func toAuth() {
         let coordinator = AuthCoordinator()
 

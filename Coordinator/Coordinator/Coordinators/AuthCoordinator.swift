@@ -9,9 +9,13 @@ import UIKit
 
 /// Координатор экрана авторизации.
 final class AuthCoordinator: BaseCoordinator {
-    // MARK: - Public Properties
+
+    // MARK: - Visual component
 
     var rootController: UINavigationController?
+
+    // MARK: - Public Properties
+
     var onFinishFlow: VoidHandler?
 
     // MARK: - Public Methods

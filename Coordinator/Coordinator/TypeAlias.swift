@@ -7,4 +7,5 @@
 
 import Foundation
 
+/// Замыкание без аргументов, возвращающие пустоту.
 typealias VoidHandler = () -> ()

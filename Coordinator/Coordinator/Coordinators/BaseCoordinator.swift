@@ -9,7 +9,8 @@ import UIKit
 
 /// Асбтрактный класс координатор
  class BaseCoordinator {
-     // MARK: - Visual Components
+
+     // MARK: - Public properties
 
      var childCoordinators: [BaseCoordinator] = []
 

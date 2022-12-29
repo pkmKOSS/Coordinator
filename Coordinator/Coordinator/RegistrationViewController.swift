@@ -17,6 +17,11 @@ final class RegistrationViewController: UIViewController, Storyboarded {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        finishFlow()
+    }
+
+    // MARK: - Private method
+    private func finishFlow() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [weak self] in
             self?.onFinishFlow?()
         }

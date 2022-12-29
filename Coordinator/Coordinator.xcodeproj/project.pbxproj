@@ -20,6 +20,7 @@
 		6B7F59D7295D991C00E332BA /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F59D6295D991C00E332BA /* AuthorizationViewController.swift */; };
 		6B7F59D9295D997500E332BA /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F59D8295D997500E332BA /* RegistrationViewController.swift */; };
 		6B7F59DB295DA17200E332BA /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F59DA295DA17200E332BA /* TypeAlias.swift */; };
+		6B7F59DD295DFF1700E332BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F59DC295DFF1700E332BA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		6B7F59D6295D991C00E332BA /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		6B7F59D8295D997500E332BA /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		6B7F59DA295DA17200E332BA /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		6B7F59DC295DFF1700E332BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				6B7F59D6295D991C00E332BA /* AuthorizationViewController.swift */,
 				6B7F59D8295D997500E332BA /* RegistrationViewController.swift */,
 				6B7F59DA295DA17200E332BA /* TypeAlias.swift */,
+				6B7F59DC295DFF1700E332BA /* Constants.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B7F59D0295D987700E332BA /* ApplicationCoordinator.swift in Sources */,
+				6B7F59DD295DFF1700E332BA /* Constants.swift in Sources */,
 				6B7F59CC295D985D00E332BA /* BaseCoordinator.swift in Sources */,
 				6B7F59BA295D743B00E332BA /* MainViewController.swift in Sources */,
 				6B7F59D9295D997500E332BA /* RegistrationViewController.swift in Sources */,
